@@ -10,4 +10,6 @@
 
 @theme {
   --color-primary: #095697;
+  --color-true: #4fbd1b;
+  --color-false: #e04e10;
 }
