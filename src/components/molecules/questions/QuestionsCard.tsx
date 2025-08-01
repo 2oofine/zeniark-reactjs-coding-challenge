@@ -50,7 +50,7 @@ const QuestionsCard = (props: Props) => {
 
       <hr className="w-full text-slate-300 my-5" />
 
-      <div className="flex items-center justify-between gap-14">
+      <div className="flex md:flex-row flex-col items-center justify-between md:gap-14 gap-4">
         <Button icon="/icons/check-icon.svg" name="True" onClick={() => handleAnswer("True")} color="bg-true" />
         <Button icon="/icons/x-icon.svg" name="False" onClick={() => handleAnswer("False")} color="bg-false" />
       </div>

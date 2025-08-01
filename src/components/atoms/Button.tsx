@@ -16,7 +16,7 @@ const Button = (props: Props) => {
   return (
     <button
       onClick={onClick}
-      className={`text-white flex items-center justify-between gap-5 ${color} rounded-lg px-5 py-3 cursor-pointer hover:opacity-90`}
+      className={`text-white flex items-center justify-center md:justify-between md:gap-5 gap-3 ${color} rounded-lg p-5 h-1 w-full cursor-pointer hover:opacity-90`}
     >
       <Image src={icon} alt={`${name} icon`} width={20} height={20} /> {name}
     </button>
